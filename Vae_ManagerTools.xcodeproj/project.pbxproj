@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002EFCA539A547724DCB5C51 /* libPods-Vae_ManagerTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B54F9A191D0A7BB6392E57A /* libPods-Vae_ManagerTools.a */; };
+		3F4A23181FF4D1F00055797A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A23171FF4D1F00055797A /* AppDelegate.m */; };
+		3F4A231B1FF4D1F00055797A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A231A1FF4D1F00055797A /* ViewController.m */; };
+		3F4A231E1FF4D1F00055797A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A231C1FF4D1F00055797A /* Main.storyboard */; };
+		3F4A23201FF4D1F00055797A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A231F1FF4D1F00055797A /* Assets.xcassets */; };
+		3F4A23231FF4D1F00055797A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4A23211FF4D1F00055797A /* LaunchScreen.storyboard */; };
+		3F4A23261FF4D1F00055797A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A23251FF4D1F00055797A /* main.m */; };
+		3F4A23301FF4D1F00055797A /* Vae_ManagerToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A232F1FF4D1F00055797A /* Vae_ManagerToolsTests.m */; };
+		3F4A233B1FF4D1F00055797A /* Vae_ManagerToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A233A1FF4D1F00055797A /* Vae_ManagerToolsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F4A232C1FF4D1F00055797A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4A230B1FF4D1F00055797A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4A23121FF4D1F00055797A;
+			remoteInfo = Vae_ManagerTools;
+		};
+		3F4A23371FF4D1F00055797A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4A230B1FF4D1F00055797A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4A23121FF4D1F00055797A;
+			remoteInfo = Vae_ManagerTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F4A23131FF4D1F00055797A /* Vae_ManagerTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vae_ManagerTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4A23161FF4D1F00055797A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F4A23171FF4D1F00055797A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F4A23191FF4D1F00055797A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F4A231A1FF4D1F00055797A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F4A231D1FF4D1F00055797A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F4A231F1FF4D1F00055797A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F4A23221FF4D1F00055797A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F4A23241FF4D1F00055797A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4A23251FF4D1F00055797A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F4A232B1FF4D1F00055797A /* Vae_ManagerToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vae_ManagerToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4A232F1FF4D1F00055797A /* Vae_ManagerToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vae_ManagerToolsTests.m; sourceTree = "<group>"; };
+		3F4A23311FF4D1F00055797A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4A23361FF4D1F00055797A /* Vae_ManagerToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vae_ManagerToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4A233A1FF4D1F00055797A /* Vae_ManagerToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vae_ManagerToolsUITests.m; sourceTree = "<group>"; };
+		3F4A233C1FF4D1F00055797A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531C41766491EA403EB97E7C /* Pods-Vae_ManagerTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vae_ManagerTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools.release.xcconfig"; sourceTree = "<group>"; };
+		7B54F9A191D0A7BB6392E57A /* libPods-Vae_ManagerTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vae_ManagerTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED690B6C5C7DA240A2702BC9 /* Pods-Vae_ManagerTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vae_ManagerTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4A23101FF4D1F00055797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002EFCA539A547724DCB5C51 /* libPods-Vae_ManagerTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A23281FF4D1F00055797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A23331FF4D1F00055797A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CAF95E3BF25C5F2E352E457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED690B6C5C7DA240A2702BC9 /* Pods-Vae_ManagerTools.debug.xcconfig */,
+				531C41766491EA403EB97E7C /* Pods-Vae_ManagerTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F4A230A1FF4D1F00055797A = {
+			isa = PBXGroup;
+			children = (
+				3F4A23151FF4D1F00055797A /* Vae_ManagerTools */,
+				3F4A232E1FF4D1F00055797A /* Vae_ManagerToolsTests */,
+				3F4A23391FF4D1F00055797A /* Vae_ManagerToolsUITests */,
+				3F4A23141FF4D1F00055797A /* Products */,
+				0CAF95E3BF25C5F2E352E457 /* Pods */,
+				DB73B3135C9221DB50705A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4A23141FF4D1F00055797A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A23131FF4D1F00055797A /* Vae_ManagerTools.app */,
+				3F4A232B1FF4D1F00055797A /* Vae_ManagerToolsTests.xctest */,
+				3F4A23361FF4D1F00055797A /* Vae_ManagerToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4A23151FF4D1F00055797A /* Vae_ManagerTools */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A23161FF4D1F00055797A /* AppDelegate.h */,
+				3F4A23171FF4D1F00055797A /* AppDelegate.m */,
+				3F4A23191FF4D1F00055797A /* ViewController.h */,
+				3F4A231A1FF4D1F00055797A /* ViewController.m */,
+				3F4A231C1FF4D1F00055797A /* Main.storyboard */,
+				3F4A231F1FF4D1F00055797A /* Assets.xcassets */,
+				3F4A23211FF4D1F00055797A /* LaunchScreen.storyboard */,
+				3F4A23241FF4D1F00055797A /* Info.plist */,
+				3F4A23251FF4D1F00055797A /* main.m */,
+			);
+			path = Vae_ManagerTools;
+			sourceTree = "<group>";
+		};
+		3F4A232E1FF4D1F00055797A /* Vae_ManagerToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A232F1FF4D1F00055797A /* Vae_ManagerToolsTests.m */,
+				3F4A23311FF4D1F00055797A /* Info.plist */,
+			);
+			path = Vae_ManagerToolsTests;
+			sourceTree = "<group>";
+		};
+		3F4A23391FF4D1F00055797A /* Vae_ManagerToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4A233A1FF4D1F00055797A /* Vae_ManagerToolsUITests.m */,
+				3F4A233C1FF4D1F00055797A /* Info.plist */,
+			);
+			path = Vae_ManagerToolsUITests;
+			sourceTree = "<group>";
+		};
+		DB73B3135C9221DB50705A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B54F9A191D0A7BB6392E57A /* libPods-Vae_ManagerTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4A23121FF4D1F00055797A /* Vae_ManagerTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4A233F1FF4D1F00055797A /* Build configuration list for PBXNativeTarget "Vae_ManagerTools" */;
+			buildPhases = (
+				C197061C5D12C0A0501453D9 /* [CP] Check Pods Manifest.lock */,
+				3F4A230F1FF4D1F00055797A /* Sources */,
+				3F4A23101FF4D1F00055797A /* Frameworks */,
+				3F4A23111FF4D1F00055797A /* Resources */,
+				551BCA4B7F25E2556631B4B7 /* [CP] Embed Pods Frameworks */,
+				BE766458B9A61A456B12BD8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vae_ManagerTools;
+			productName = Vae_ManagerTools;
+			productReference = 3F4A23131FF4D1F00055797A /* Vae_ManagerTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F4A232A1FF4D1F00055797A /* Vae_ManagerToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4A23421FF4D1F00055797A /* Build configuration list for PBXNativeTarget "Vae_ManagerToolsTests" */;
+			buildPhases = (
+				3F4A23271FF4D1F00055797A /* Sources */,
+				3F4A23281FF4D1F00055797A /* Frameworks */,
+				3F4A23291FF4D1F00055797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4A232D1FF4D1F00055797A /* PBXTargetDependency */,
+			);
+			name = Vae_ManagerToolsTests;
+			productName = Vae_ManagerToolsTests;
+			productReference = 3F4A232B1FF4D1F00055797A /* Vae_ManagerToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F4A23351FF4D1F00055797A /* Vae_ManagerToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4A23451FF4D1F00055797A /* Build configuration list for PBXNativeTarget "Vae_ManagerToolsUITests" */;
+			buildPhases = (
+				3F4A23321FF4D1F00055797A /* Sources */,
+				3F4A23331FF4D1F00055797A /* Frameworks */,
+				3F4A23341FF4D1F00055797A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4A23381FF4D1F00055797A /* PBXTargetDependency */,
+			);
+			name = Vae_ManagerToolsUITests;
+			productName = Vae_ManagerToolsUITests;
+			productReference = 3F4A23361FF4D1F00055797A /* Vae_ManagerToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4A230B1FF4D1F00055797A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "闵玉辉";
+				TargetAttributes = {
+					3F4A23121FF4D1F00055797A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3F4A232A1FF4D1F00055797A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F4A23121FF4D1F00055797A;
+					};
+					3F4A23351FF4D1F00055797A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F4A23121FF4D1F00055797A;
+					};
+				};
+			};
+			buildConfigurationList = 3F4A230E1FF4D1F00055797A /* Build configuration list for PBXProject "Vae_ManagerTools" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F4A230A1FF4D1F00055797A;
+			productRefGroup = 3F4A23141FF4D1F00055797A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4A23121FF4D1F00055797A /* Vae_ManagerTools */,
+				3F4A232A1FF4D1F00055797A /* Vae_ManagerToolsTests */,
+				3F4A23351FF4D1F00055797A /* Vae_ManagerToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F4A23111FF4D1F00055797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A23231FF4D1F00055797A /* LaunchScreen.storyboard in Resources */,
+				3F4A23201FF4D1F00055797A /* Assets.xcassets in Resources */,
+				3F4A231E1FF4D1F00055797A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A23291FF4D1F00055797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A23341FF4D1F00055797A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		551BCA4B7F25E2556631B4B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE766458B9A61A456B12BD8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C197061C5D12C0A0501453D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vae_ManagerTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4A230F1FF4D1F00055797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A231B1FF4D1F00055797A /* ViewController.m in Sources */,
+				3F4A23261FF4D1F00055797A /* main.m in Sources */,
+				3F4A23181FF4D1F00055797A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A23271FF4D1F00055797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A23301FF4D1F00055797A /* Vae_ManagerToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4A23321FF4D1F00055797A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4A233B1FF4D1F00055797A /* Vae_ManagerToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F4A232D1FF4D1F00055797A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4A23121FF4D1F00055797A /* Vae_ManagerTools */;
+			targetProxy = 3F4A232C1FF4D1F00055797A /* PBXContainerItemProxy */;
+		};
+		3F4A23381FF4D1F00055797A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4A23121FF4D1F00055797A /* Vae_ManagerTools */;
+			targetProxy = 3F4A23371FF4D1F00055797A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F4A231C1FF4D1F00055797A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4A231D1FF4D1F00055797A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F4A23211FF4D1F00055797A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4A23221FF4D1F00055797A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F4A233D1FF4D1F00055797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F4A233E1FF4D1F00055797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4A23401FF4D1F00055797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED690B6C5C7DA240A2702BC9 /* Pods-Vae_ManagerTools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHNKV6SWUD;
+				INFOPLIST_FILE = Vae_ManagerTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.MerchantCatEntertainment.Vae-ManagerTools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F4A23411FF4D1F00055797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531C41766491EA403EB97E7C /* Pods-Vae_ManagerTools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHNKV6SWUD;
+				INFOPLIST_FILE = Vae_ManagerTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.MerchantCatEntertainment.Vae-ManagerTools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F4A23431FF4D1F00055797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHNKV6SWUD;
+				INFOPLIST_FILE = Vae_ManagerToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.MerchantCatEntertainment.Vae-ManagerToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vae_ManagerTools.app/Vae_ManagerTools";
+			};
+			name = Debug;
+		};
+		3F4A23441FF4D1F00055797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHNKV6SWUD;
+				INFOPLIST_FILE = Vae_ManagerToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.MerchantCatEntertainment.Vae-ManagerToolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vae_ManagerTools.app/Vae_ManagerTools";
+			};
+			name = Release;
+		};
+		3F4A23461FF4D1F00055797A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHNKV6SWUD;
+				INFOPLIST_FILE = Vae_ManagerToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.MerchantCatEntertainment.Vae-ManagerToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vae_ManagerTools;
+			};
+			name = Debug;
+		};
+		3F4A23471FF4D1F00055797A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SHNKV6SWUD;
+				INFOPLIST_FILE = Vae_ManagerToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.MerchantCatEntertainment.Vae-ManagerToolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Vae_ManagerTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4A230E1FF4D1F00055797A /* Build configuration list for PBXProject "Vae_ManagerTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A233D1FF4D1F00055797A /* Debug */,
+				3F4A233E1FF4D1F00055797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4A233F1FF4D1F00055797A /* Build configuration list for PBXNativeTarget "Vae_ManagerTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A23401FF4D1F00055797A /* Debug */,
+				3F4A23411FF4D1F00055797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4A23421FF4D1F00055797A /* Build configuration list for PBXNativeTarget "Vae_ManagerToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A23431FF4D1F00055797A /* Debug */,
+				3F4A23441FF4D1F00055797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4A23451FF4D1F00055797A /* Build configuration list for PBXNativeTarget "Vae_ManagerToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4A23461FF4D1F00055797A /* Debug */,
+				3F4A23471FF4D1F00055797A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4A230B1FF4D1F00055797A /* Project object */;
+}
