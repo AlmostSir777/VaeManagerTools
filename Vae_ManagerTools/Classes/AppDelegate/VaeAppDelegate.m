@@ -25,6 +25,7 @@ void uncaughtExceptionHandler(NSException *exception) {
     VaeTabBarController * tabBar = [[VaeTabBarController alloc]init];
     self.window.rootViewController = tabBar;
     self.tabBarVC = tabBar;
+    [self configNavBar];
     [self.window makeKeyAndVisible];
     return YES;
 }
