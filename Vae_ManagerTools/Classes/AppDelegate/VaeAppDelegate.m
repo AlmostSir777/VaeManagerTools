@@ -19,6 +19,7 @@ void uncaughtExceptionHandler(NSException *exception) {
 @end
 @implementation VaeAppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     VaeTabBarController * tabBar = [[VaeTabBarController alloc]init];
