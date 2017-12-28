@@ -1,0 +1,28 @@
+//
+//  VaeHeadTool.pch
+//  Vae_ManagerTools
+//
+//  Created by 闵玉辉 on 2017/12/28.
+//  Copyright © 2017年 闵玉辉. All rights reserved.
+//
+
+#ifndef VaeHeadTool_pch
+#define VaeHeadTool_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry/Masonry.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import "NSObject+BaseObject.h"
+#import "Config.h"
+#import "MBProgressHUD.h"
+#import "MBProgressHUD+MJ.h"
+#import "UIColor+Tools.h"
+#import "Helper.h"
+#import "Utils.h"
+#import "Tool.h"
+#endif
+#endif /* VaeHeadTool_pch */
