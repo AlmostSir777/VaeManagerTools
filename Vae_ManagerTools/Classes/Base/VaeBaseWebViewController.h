@@ -8,8 +8,21 @@
 
 #import "VaeBaseViewController.h"
 #import <WebKit/WebKit.h>
+typedef NS_ENUM(NSUInteger, WebType) {
+    /**
+     *  webview
+     */
+    NormalType       = 0,
+    /**
+     *  wkWebView
+     */
+    WKType             = 1,
+    
+};
 @interface VaeBaseWebViewController : VaeBaseViewController
-
+-(instancetype)initWebWithUrl:(NSString*)bannerUrl webType:(WebType)webType;
+@property (nonatomic, copy) NSString *bannerUrl;
+@property (nonatomic,assign) WebType webType;
 @end
 @interface WeakScriptMessageDelegate : NSObject<WKScriptMessageHandler>
 
