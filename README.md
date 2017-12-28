@@ -1,2 +1,2 @@
 # VaeXnn.github.io
-OC develops tools for common projects
+develops tools for OC.
