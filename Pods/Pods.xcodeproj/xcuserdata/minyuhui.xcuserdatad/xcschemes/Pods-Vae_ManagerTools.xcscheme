@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '75AB0D77005332AAEBB0B60C559CBBD1'
+               BlueprintIdentifier = '3E26C7121D6ED32BEB8D9B0BF5122785'
                BlueprintName = 'Pods-Vae_ManagerTools'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-Vae_ManagerTools.a'>

@@ -783,6 +783,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
+				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
