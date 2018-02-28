@@ -1,5 +1,4 @@
 platform :ios, ‘8.0’
-source 'https://github.com/CocoaPods/Specs.git'
 target ‘Vae_ManagerTools’ do
     pod 'AFNetworking' 
     pod 'SDWebImage'
@@ -7,5 +6,5 @@ target ‘Vae_ManagerTools’ do
     pod 'Masonry', '~> 1.0.2'
     pod 'MJRefresh'
     pod 'MJExtension'
-    pod  'WXDevtool',   '~> 0.7.0', :configurations => ['Debug']
+    pod 'SVProgressHUD'
 end

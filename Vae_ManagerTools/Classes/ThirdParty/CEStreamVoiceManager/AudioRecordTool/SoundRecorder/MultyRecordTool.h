@@ -1,0 +1,61 @@
+//
+//  MultyRecordTool.h
+//  CatEntertainment
+//
+//  Created by young He on 2018/2/5.
+//  Copyright © 2018年 闵玉辉. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
+typedef void (^refreshTimeBlock)(CGFloat index);
+typedef NS_ENUM(NSUInteger, CEPhoneType) {
+    
+    TrueMachine,
+    Simulator,
+};
+
+@interface MultyRecordTool : NSObject
+
++ (instancetype)sharedSoundRecorder;
+//录音
+@property (nonatomic, strong) AVAudioRecorder *recorder;
+//播放录音
+@property (nonatomic, strong) AVAudioPlayer *player;
+//开始录音和继续录音 录完之后的回调 传出文件路径
+- (void)startRecorder:(void (^)(NSString *filePath))FinishRecording;
+
+//暂停录音
+- (void)pauseRecorder;
+
+//停止录音
+- (void)stopRecorder;
+
+//播放录音  传人需要播放的文件(如果传nil 直接播放录音文件)  播放完之后的回调
+- (void)playsound:(NSString *)filePath withFinishPlaying:(void (^)(void))FinishPlaying;
+
+//暂停播放录音
+- (void)pausePlaysound;
+
+//停止播放录音
+- (void)stopPlaysound;
+
+//删除录音
+- (void)removeSoundRecorder;
+
+//删除 指定的  曾经录音的文件  Add
+- (void)deleteAudioWithFilePath:(NSString*)filePath;
+    
+//分贝数回调
+@property (nonatomic,copy) void(^decibelsBackBlock)(int index);
+
+//获取分贝数
+- (CGFloat)decibels;
+//转成mp3格式 传如要转换的文件(如果传nil 直接转换最后一个录音文件) 传出文件路径
+- (void)recorderFileToMp3WithType:(CEPhoneType)type filePath:(NSString *)filePath FilePath:(void (^)(NSString *newfilePath))newFilePath;
+//获取时长
+-(double)muchTime:(BOOL)isMP3;
+@property (nonatomic,copy)refreshTimeBlock timeBlock;
+//删除
+-(void)removeFileFinshRecord;
+@end

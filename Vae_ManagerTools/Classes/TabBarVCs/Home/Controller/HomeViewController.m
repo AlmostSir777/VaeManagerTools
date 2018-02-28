@@ -7,8 +7,7 @@
 //
 
 #import "HomeViewController.h"
-#import <WeexSDK.h>
-#import <TBWXDevTool/WXDevTool.h>
+
 @interface HomeViewController ()
 
 @end
@@ -17,18 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [WXDevTool setDebug:YES];
-    [WXDevTool launchDevToolDebugWithUrl:@"ws://30.30.31.7:8088/debugProxy/native"];
-   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(notificationRefreshInstance:) name:@"RefreshInstance" object:nil];
-}
--(void)notificationRefreshInstance:(NSNotification*)noti
-{
-    SSLog(@"5555");
-}
-
--(void)dealloc
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

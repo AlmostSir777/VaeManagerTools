@@ -24,5 +24,7 @@
 #import "Helper.h"
 #import "Utils.h"
 #import "Tool.h"
+#import "AppInterface.h"
+#import "HudCenter.h"
 #endif
 #endif /* VaeHeadTool_pch */

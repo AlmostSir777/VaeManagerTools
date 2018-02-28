@@ -44,6 +44,10 @@
 /**
  * 新定义
  */
+#import "VaeAppDelegate.h"
+#define g_App               ((VaeAppDelegate*)[[UIApplication sharedApplication] delegate])
+#define SelectVC          (CEBaseNavViewController*)g_App.tabBarVC.selectedViewController
+
 #define MainWindow [UIApplication sharedApplication].keyWindow
 #define KFONT(size) [UIFont systemFontOfSize:size]
 #define kBLOD_FONT(size) [UIFont boldSystemFontOfSize:size]
@@ -64,7 +68,6 @@
 
 // 适配
 #define DevicesScale ([UIScreen mainScreen].bounds.size.height==480?1.00:[UIScreen mainScreen].bounds.size.height==568?1.00:[UIScreen mainScreen].bounds.size.height==667?1.17:1.29)
-
 #define weakify(...) \
 ext_keywordify \
 metamacro_foreach_cxt(ext_weakify_,, __weak, __VA_ARGS__)
@@ -76,21 +79,10 @@ _Pragma("clang diagnostic ignored \"-Wshadow\"") \
 metamacro_foreach(ext_strongify_,, __VA_ARGS__) \
 _Pragma("clang diagnostic pop")
 
-
+#define MENU_COLOR KCOLOR(@"#933BFF")
 //设备型号
 #define MOBILE_TYPE  [[[UIDevice currentDevice] identifierForVendor] UUIDString]
 
-/**
- * 通知名类
- */
-/**
- * 登出
- */
-#define LOGIN_OUT       @"loginOut"
-/**
- * 登入
- */
-#define LOGIN_IN           @"loginIn"
 //------------------------------------------UtilsMacro-------------------------------------------\\
 
 // 打印
