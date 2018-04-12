@@ -9,5 +9,5 @@
 #import "VaeBaseViewController.h"
 
 @interface MessageViewController : VaeBaseViewController
-
+@property (nonatomic,assign) NSInteger currrentPage;
 @end

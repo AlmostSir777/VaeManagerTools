@@ -18,7 +18,7 @@
     attrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     attrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:18];
     [navBar setTitleTextAttributes:attrs];
-    
+    navBar.translucent = NO;
     UIBarButtonItem *barItem = [UIBarButtonItem appearance];
     NSMutableDictionary *itemAttrs = [NSMutableDictionary dictionary];
     itemAttrs[NSForegroundColorAttributeName] = KCOLOR(@"#333333");

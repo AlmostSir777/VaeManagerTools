@@ -10,6 +10,7 @@
 #import "Track.h"
 #import "DOUAudioStreamer.h"
 #import "DOUAudioVisualizer.h"
+#import "CENearbyDynamicModel.h"
 typedef NS_ENUM(NSUInteger, CEAudioPlayStyle) {
     singlePlayStyle = 0,//单个
     quantityPlayStyle =1,//多个
@@ -24,5 +25,8 @@ typedef void (^AudioStateWithIndexBlock)(AudioState type,NSInteger index,NSStrin
 - (void)_cancelStreamer;
 //多个音频处理逻辑
 @property (nonatomic,strong) NSMutableArray <Track*>* tracks;
+//加强版
+-(void)playStreamer:(NSArray<Track *> *)tracks audioState:(AudioState)state stateBlock:(AudioStateWithIndexBlock)IndexStateBlock;
 - (void)setStreamer:(NSArray <Track*>*)tracks WithStateBlock:(AudioStateWithIndexBlock)IndexStateBlock;
 @end
+

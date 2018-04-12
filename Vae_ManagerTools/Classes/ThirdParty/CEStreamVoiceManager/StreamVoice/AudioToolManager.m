@@ -61,22 +61,22 @@ static id instance;
 - (void)_cancelStreamer
 {
     if(self.playStyle == singlePlayStyle){
-    if (_streamer != nil) {
-        self.isPlay = NO;
-        _track = nil;
-        [_streamer pause];
-        if(self.audioBlock)
-        {
-            self.audioBlock(normal_state);
+        if (_streamer != nil) {
+            self.isPlay = NO;
+            _track = nil;
+            [_streamer pause];
+            if(self.audioBlock)
+            {
+                self.audioBlock(normal_state);
+            }
+            _audioBlock = nil;
+            @try {
+                [self removeObserver];
+            } @catch(id anException){
+            }
+            
+            SSLog(@"销毁了");
         }
-        _audioBlock = nil;
-        @try {
-            [self removeObserver];
-        } @catch(id anException){
-        }
-        
-                SSLog(@"销毁了");
-    }
     }else if (self.playStyle == quantityPlayStyle)
     {
         //多个音频
@@ -173,7 +173,7 @@ static id instance;
                 self.isPlay = YES;
                 [DOUAudioStreamer setHintWithAudioFile:_track];
             });
-            }
+        }
         
     }
 }
@@ -193,10 +193,10 @@ static id instance;
                 waitUntilDone:NO];
     }
     else if (context == kDurationKVOKey) {
-                [self performSelector:@selector(_timerAction:)
-                             onThread:[NSThread mainThread]
-                           withObject:nil
-                        waitUntilDone:NO];
+        [self performSelector:@selector(_timerAction:)
+                     onThread:[NSThread mainThread]
+                   withObject:nil
+                waitUntilDone:NO];
     }
     else if (context == kBufferingRatioKVOKey) {
         
@@ -214,65 +214,65 @@ static id instance;
 {
     
     if(self.playStyle == singlePlayStyle){
-    switch ([_streamer status]) {
-        case DOUAudioStreamerPlaying:
-        {
-            if(self.audioBlock)
+        switch ([_streamer status]) {
+            case DOUAudioStreamerPlaying:
             {
-                self.audioBlock(animation_state);
+                if(self.audioBlock)
+                {
+                    self.audioBlock(animation_state);
+                }
             }
-        }
-            break;
-            
-        case DOUAudioStreamerPaused:
-        {
-            if(self.audioBlock)
+                break;
+                
+            case DOUAudioStreamerPaused:
             {
-                self.audioBlock(normal_state);
-            }
-        }
-            break;
-            
-        case DOUAudioStreamerIdle:
-        {
-            if(self.audioBlock)
-            {
-                self.audioBlock(normal_state);
-            }
-        }
-            break;
-            
-        case DOUAudioStreamerFinished:
-        {
-            if(self.audioBlock)
-            {
-                self.audioBlock(normal_state);
-            }
-            [self _cancelStreamer];
-        }
-            break;
-            
-        case DOUAudioStreamerBuffering:
-        {
-            if(self.audioBlock)
-            {
-                self.audioBlock(buffer_state);
-            }
-        }
-            break;
-            
-        case DOUAudioStreamerError:
-        {
-            
                 if(self.audioBlock)
                 {
                     self.audioBlock(normal_state);
                 }
-            
-        SSMBToast(@"语音播放出错", [UIApplication sharedApplication].keyWindow);
+            }
+                break;
+                
+            case DOUAudioStreamerIdle:
+            {
+                if(self.audioBlock)
+                {
+                    self.audioBlock(normal_state);
+                }
+            }
+                break;
+                
+            case DOUAudioStreamerFinished:
+            {
+                if(self.audioBlock)
+                {
+                    self.audioBlock(normal_state);
+                }
+                [self _cancelStreamer];
+            }
+                break;
+                
+            case DOUAudioStreamerBuffering:
+            {
+                if(self.audioBlock)
+                {
+                    self.audioBlock(buffer_state);
+                }
+            }
+                break;
+                
+            case DOUAudioStreamerError:
+            {
+                {
+                    if(self.audioBlock)
+                    {
+                        self.audioBlock(normal_state);
+                    }
+                }
+                SSMBToast(@"语音播放出错", MainWindow);
+            }
+                break;
         }
-            break;
-    }
     }else if (self.playStyle == quantityPlayStyle)
     {
         //多个音频
@@ -325,7 +325,7 @@ static id instance;
                 
             case DOUAudioStreamerError:
             {
-                SSMBToast(@"语音播放出错", [UIApplication sharedApplication].keyWindow);
+                SSMBToast(@"语音播放出错", MainWindow);
                 if(self.IndexStateBlock)
                 {
                     self.IndexStateBlock(normal_state, _currentTrackIndex, _tracks[_currentTrackIndex].audioFileURL.absoluteString);
@@ -337,6 +337,61 @@ static id instance;
         
         
         
+    }
+}
+-(void)playStreamer:(CENearbyDynamicViewModel*)viewModel isTop:(BOOL)isTop index:(NSInteger)tapIndex audioState:(AudioState)state stateBlock:(AudioStateWithIndexBlock)IndexStateBlock{
+    
+}
+-(void)playStreamer:(NSArray<Track *> *)tracks audioState:(AudioState)state stateBlock:(AudioStateWithIndexBlock)IndexStateBlock
+{
+    self.playStyle = quantityPlayStyle;
+    if(_tracks!=nil)
+    {
+        //_tracks音频列表存在，代表存在列表在播放
+        //比较当前播放的URL是否与传进来的第一个数组的URL相同
+        if(state != normal_state)
+        {
+            [self _cancelStreamer];
+        }else
+        {
+            [self _cancelStreamer];
+            dispatch_async(dispatch_get_main_queue(), ^{
+                AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+                NSError *err = nil;
+                [audioSession setCategory :AVAudioSessionCategoryPlayback error:&err];
+                self.tracks = tracks.mutableCopy;
+                self.currentTrackIndex = 0;
+                self.IndexStateBlock = IndexStateBlock;
+                _streamer = [DOUAudioStreamer streamerWithAudioFile:_tracks.firstObject];
+                [_streamer addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:kStatusKVOKey];
+                [_streamer addObserver:self forKeyPath:@"duration" options:NSKeyValueObservingOptionNew context:kDurationKVOKey];
+                [_streamer addObserver:self forKeyPath:@"bufferingRatio" options:NSKeyValueObservingOptionNew context:kBufferingRatioKVOKey];
+                [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(_cancelStreamer) name:Audio_Pause object:nil];
+                // app退到后台
+                [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidEnterBackground) name:UIApplicationWillResignActiveNotification object:nil];
+                [_streamer play];
+            });
+        }
+    }else
+    {
+        //_tracks音频列表不存在
+        [self _cancelStreamer];
+        dispatch_async(dispatch_get_main_queue(), ^{
+            AVAudioSession *audioSession = [AVAudioSession sharedInstance];
+            NSError *err = nil;
+            [audioSession setCategory :AVAudioSessionCategoryPlayback error:&err];
+            self.tracks = tracks.mutableCopy;
+            self.currentTrackIndex = 0;
+            self.IndexStateBlock = IndexStateBlock;
+            _streamer = [DOUAudioStreamer streamerWithAudioFile:_tracks.firstObject];
+            [_streamer addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:kStatusKVOKey];
+            [_streamer addObserver:self forKeyPath:@"duration" options:NSKeyValueObservingOptionNew context:kDurationKVOKey];
+            [_streamer addObserver:self forKeyPath:@"bufferingRatio" options:NSKeyValueObservingOptionNew context:kBufferingRatioKVOKey];
+            [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(_cancelStreamer) name:Audio_Pause object:nil];
+            // app退到后台
+            [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appDidEnterBackground) name:UIApplicationWillResignActiveNotification object:nil];
+            [_streamer play];
+        });
     }
 }
 -(void)setStreamer:(NSArray<Track *> *)tracks WithStateBlock:(AudioStateWithIndexBlock)IndexStateBlock
@@ -390,7 +445,7 @@ static id instance;
             [_streamer play];
         });
     }
-
+    
 }
 -(void)finishPause{
     if (_streamer != nil) {
@@ -405,7 +460,7 @@ static id instance;
 }
 - (void)_setupHintForStreamer
 {
-        _currentTrackIndex++;
+    _currentTrackIndex++;
     if(_currentTrackIndex<_tracks.count)
     {
         //_tracks音频列表不存在
@@ -423,8 +478,8 @@ static id instance;
         
     }else
     {
-    _currentTrackIndex = _tracks.count-1;
-    [self _cancelStreamer];
+        _currentTrackIndex = _tracks.count-1;
+        [self _cancelStreamer];
     }
 }
 -(void)dealloc
@@ -444,3 +499,4 @@ static id instance;
     SSLog(@"赋值语音");
 }
 @end
+

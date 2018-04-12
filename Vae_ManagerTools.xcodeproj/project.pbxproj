@@ -100,6 +100,15 @@
 		3F4A23F21FF4EE050055797A /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A23F01FF4EE050055797A /* UIBarButtonItem+Extension.m */; };
 		3F4A23F51FF4EED90055797A /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A23F31FF4EED80055797A /* UIFont+Extension.m */; };
 		3F4A23F81FF4EEFF0055797A /* SSLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4A23F71FF4EEFF0055797A /* SSLayerAnimation.m */; };
+		3F9FDFF1207B4CAD00D2121C /* MessageSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FDFF0207B4CAD00D2121C /* MessageSubViewController.m */; };
+		3F9FDFF4207B4D8D00D2121C /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FDFF3207B4D8D00D2121C /* MessageCell.m */; };
+		3F9FDFF7207B4DA000D2121C /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FDFF6207B4DA000D2121C /* MessageModel.m */; };
+		3F9FDFFA207B4F3B00D2121C /* HorizenButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FDFF9207B4F3B00D2121C /* HorizenButton.m */; };
+		3F9FE000207B571500D2121C /* HomeSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FDFFF207B571400D2121C /* HomeSelectView.m */; };
+		3F9FE003207B585100D2121C /* MineOrderTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE001207B585100D2121C /* MineOrderTopView.m */; };
+		3F9FE006207B59AB00D2121C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE005207B59AB00D2121C /* UIView+Extension.m */; };
+		3F9FE01B207F3E2A00D2121C /* MYHAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE017207F3E1300D2121C /* MYHAPIRequest.m */; };
+		3F9FE01E207F3E8000D2121C /* SSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE01D207F3E7F00D2121C /* SSRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -301,6 +310,27 @@
 		3F4A23F41FF4EED90055797A /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
 		3F4A23F61FF4EEFF0055797A /* SSLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLayerAnimation.h; sourceTree = "<group>"; };
 		3F4A23F71FF4EEFF0055797A /* SSLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLayerAnimation.m; sourceTree = "<group>"; };
+		3F9FDFEF207B4CAD00D2121C /* MessageSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageSubViewController.h; sourceTree = "<group>"; };
+		3F9FDFF0207B4CAD00D2121C /* MessageSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSubViewController.m; sourceTree = "<group>"; };
+		3F9FDFF2207B4D8D00D2121C /* MessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		3F9FDFF3207B4D8D00D2121C /* MessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		3F9FDFF5207B4DA000D2121C /* MessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		3F9FDFF6207B4DA000D2121C /* MessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
+		3F9FDFF8207B4F3B00D2121C /* HorizenButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizenButton.h; sourceTree = "<group>"; };
+		3F9FDFF9207B4F3B00D2121C /* HorizenButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizenButton.m; sourceTree = "<group>"; };
+		3F9FDFFE207B571400D2121C /* HomeSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSelectView.h; sourceTree = "<group>"; };
+		3F9FDFFF207B571400D2121C /* HomeSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSelectView.m; sourceTree = "<group>"; };
+		3F9FE001207B585100D2121C /* MineOrderTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineOrderTopView.m; sourceTree = "<group>"; };
+		3F9FE002207B585100D2121C /* MineOrderTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineOrderTopView.h; sourceTree = "<group>"; };
+		3F9FE004207B59AB00D2121C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3F9FE005207B59AB00D2121C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3F9FE016207F3E1200D2121C /* MYHAPIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHAPIRequest.h; sourceTree = "<group>"; };
+		3F9FE017207F3E1300D2121C /* MYHAPIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYHAPIRequest.m; sourceTree = "<group>"; };
+		3F9FE018207F3E1300D2121C /* MYHExtentionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHExtentionProtocol.h; sourceTree = "<group>"; };
+		3F9FE019207F3E1300D2121C /* MYHRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHRequestProtocol.h; sourceTree = "<group>"; };
+		3F9FE01A207F3E1300D2121C /* MYHResponseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYHResponseProtocol.h; sourceTree = "<group>"; };
+		3F9FE01C207F3E7C00D2121C /* SSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRequest.h; sourceTree = "<group>"; };
+		3F9FE01D207F3E7F00D2121C /* SSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRequest.m; sourceTree = "<group>"; };
 		531C41766491EA403EB97E7C /* Pods-Vae_ManagerTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vae_ManagerTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools.release.xcconfig"; sourceTree = "<group>"; };
 		7B54F9A191D0A7BB6392E57A /* libPods-Vae_ManagerTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vae_ManagerTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED690B6C5C7DA240A2702BC9 /* Pods-Vae_ManagerTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vae_ManagerTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools.debug.xcconfig"; sourceTree = "<group>"; };
@@ -573,6 +603,7 @@
 		3F4A235E1FF4DEEF0055797A /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				3F9FE015207F3E1100D2121C /* MYHHttpApi */,
 				3F054485204693C600F2C255 /* AppInterface.h */,
 				3F054484204693C500F2C255 /* AppInterface.m */,
 				3F4A23F61FF4EEFF0055797A /* SSLayerAnimation.h */,
@@ -808,6 +839,8 @@
 		3F4A23E11FF4EC1E0055797A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3F9FDFF5207B4DA000D2121C /* MessageModel.h */,
+				3F9FDFF6207B4DA000D2121C /* MessageModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -815,6 +848,16 @@
 		3F4A23E21FF4EC240055797A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3F9FE004207B59AB00D2121C /* UIView+Extension.h */,
+				3F9FE005207B59AB00D2121C /* UIView+Extension.m */,
+				3F9FE002207B585100D2121C /* MineOrderTopView.h */,
+				3F9FE001207B585100D2121C /* MineOrderTopView.m */,
+				3F9FDFFE207B571400D2121C /* HomeSelectView.h */,
+				3F9FDFFF207B571400D2121C /* HomeSelectView.m */,
+				3F9FDFF8207B4F3B00D2121C /* HorizenButton.h */,
+				3F9FDFF9207B4F3B00D2121C /* HorizenButton.m */,
+				3F9FDFF2207B4D8D00D2121C /* MessageCell.h */,
+				3F9FDFF3207B4D8D00D2121C /* MessageCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -824,6 +867,8 @@
 			children = (
 				3F4A23E41FF4ED540055797A /* MessageViewController.h */,
 				3F4A23E51FF4ED540055797A /* MessageViewController.m */,
+				3F9FDFEF207B4CAD00D2121C /* MessageSubViewController.h */,
+				3F9FDFF0207B4CAD00D2121C /* MessageSubViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -849,6 +894,20 @@
 				3F4A23EE1FF4ED780055797A /* MineViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3F9FE015207F3E1100D2121C /* MYHHttpApi */ = {
+			isa = PBXGroup;
+			children = (
+				3F9FE01C207F3E7C00D2121C /* SSRequest.h */,
+				3F9FE01D207F3E7F00D2121C /* SSRequest.m */,
+				3F9FE016207F3E1200D2121C /* MYHAPIRequest.h */,
+				3F9FE017207F3E1300D2121C /* MYHAPIRequest.m */,
+				3F9FE018207F3E1300D2121C /* MYHExtentionProtocol.h */,
+				3F9FE019207F3E1300D2121C /* MYHRequestProtocol.h */,
+				3F9FE01A207F3E1300D2121C /* MYHResponseProtocol.h */,
+			);
+			path = MYHHttpApi;
 			sourceTree = "<group>";
 		};
 		DB73B3135C9221DB50705A6E /* Frameworks */ = {
@@ -1080,7 +1139,10 @@
 				3F4A23CD1FF4E61B0055797A /* Helper.m in Sources */,
 				3F0544602046923F00F2C255 /* NSObject+ALiHUD.m in Sources */,
 				3F4A23D01FF4E63B0055797A /* MapTool.m in Sources */,
+				3F9FDFF4207B4D8D00D2121C /* MessageCell.m in Sources */,
+				3F9FE006207B59AB00D2121C /* UIView+Extension.m in Sources */,
 				3F4A237F1FF4E0250055797A /* UIDevice+LCActionSheet.m in Sources */,
+				3F9FDFFA207B4F3B00D2121C /* HorizenButton.m in Sources */,
 				3F4A23E91FF4ED5E0055797A /* HomeViewController.m in Sources */,
 				3F0544742046923F00F2C255 /* DOUAudioVisualizer.m in Sources */,
 				3F4A23D61FF4E7B30055797A /* Tool.m in Sources */,
@@ -1106,7 +1168,9 @@
 				3F05446A2046923F00F2C255 /* DOUAudioEventLoop.m in Sources */,
 				3F4A234B1FF4DB6B0055797A /* VaeAppDelegate.m in Sources */,
 				3F4A23EF1FF4ED780055797A /* MineViewController.m in Sources */,
+				3F9FE000207B571500D2121C /* HomeSelectView.m in Sources */,
 				3F05446C2046923F00F2C255 /* DOUAudioFileProvider.m in Sources */,
+				3F9FDFF7207B4DA000D2121C /* MessageModel.m in Sources */,
 				3F05446F2046923F00F2C255 /* DOUAudioPlaybackItem.m in Sources */,
 				3F0544732046923F00F2C255 /* DOUAudioStreamer.m in Sources */,
 				3F054486204693C600F2C255 /* AppInterface.m in Sources */,
@@ -1114,9 +1178,12 @@
 				3F4A237B1FF4E0250055797A /* LCActionSheet.m in Sources */,
 				3F4A23AE1FF4E0710055797A /* YHWebViewProgress.m in Sources */,
 				3F4A23AF1FF4E0710055797A /* YHWebViewProgressView.m in Sources */,
+				3F9FE003207B585100D2121C /* MineOrderTopView.m in Sources */,
 				3F4A23A51FF4E0450055797A /* PSNormalRefreshHeader.m in Sources */,
 				3F0544762046923F00F2C255 /* DOUMPMediaLibraryAssetLoader.m in Sources */,
+				3F9FE01E207F3E8000D2121C /* SSRequest.m in Sources */,
 				3F4A23A41FF4E0450055797A /* PSGifRefreshHeader.m in Sources */,
+				3F9FE01B207F3E2A00D2121C /* MYHAPIRequest.m in Sources */,
 				3F4A23C41FF4E5BE0055797A /* UIControl+recurClick.m in Sources */,
 				3F4A237D1FF4E0250055797A /* LCActionSheetConfig.m in Sources */,
 				3F0544692046923F00F2C255 /* DOUAudioDecoder.m in Sources */,
@@ -1124,6 +1191,7 @@
 				3F0544632046923F00F2C255 /* MultyRecordTool.m in Sources */,
 				3F0544712046923F00F2C255 /* DOUAudioSpatialAnalyzer.m in Sources */,
 				3F0544642046923F00F2C255 /* PlayRecordSpectrumView.m in Sources */,
+				3F9FDFF1207B4CAD00D2121C /* MessageSubViewController.m in Sources */,
 				3F0544572046923F00F2C255 /* ALiProgressHUD.m in Sources */,
 				3F0544792046923F00F2C255 /* AudioToolManager.m in Sources */,
 				3F4A23531FF4DD660055797A /* VaeBaseViewController.m in Sources */,
