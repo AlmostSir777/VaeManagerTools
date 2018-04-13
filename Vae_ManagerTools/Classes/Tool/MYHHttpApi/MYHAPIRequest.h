@@ -11,6 +11,7 @@
 #import "MYHRequestProtocol.h"
 #import "MYHResponseProtocol.h"
 @interface MYHAPIRequest : NSObject
+-(instancetype)initWithDelegate:(id<MYHResponseProtocol>)delegate;
 /**
  * requset 对象
  **/
@@ -37,3 +38,4 @@
 @property (nonatomic,copy) NSString * pageKey;
 -(void)startApiRuquest;
 @end
+

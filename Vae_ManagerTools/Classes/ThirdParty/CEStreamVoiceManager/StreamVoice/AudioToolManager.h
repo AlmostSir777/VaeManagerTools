@@ -10,7 +10,6 @@
 #import "Track.h"
 #import "DOUAudioStreamer.h"
 #import "DOUAudioVisualizer.h"
-#import "CENearbyDynamicModel.h"
 typedef NS_ENUM(NSUInteger, CEAudioPlayStyle) {
     singlePlayStyle = 0,//单个
     quantityPlayStyle =1,//多个

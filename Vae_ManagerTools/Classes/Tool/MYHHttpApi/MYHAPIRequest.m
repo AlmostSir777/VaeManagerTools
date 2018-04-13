@@ -9,6 +9,20 @@
 #import "MYHAPIRequest.h"
 
 @implementation MYHAPIRequest
+-(instancetype)initWithDelegate:(id<MYHResponseProtocol>)delegate
+{
+    if(self = [super init])
+    {
+        if ([self conformsToProtocol:@protocol(MYHRequestProtocol)]) {
+            self.request = (id<MYHRequestProtocol>)self;
+        } else {
+            // 不遵守这个protocol的就让他crash，防止派生类乱来。
+            NSAssert(NO, @"子类必须要实现APIManager这个protocol");
+        }
+        self.delegate = delegate;
+    }
+    return self;
+}
 - (instancetype)init {
     self = [super init];
     if ([self conformsToProtocol:@protocol(MYHRequestProtocol)]) {
@@ -23,14 +37,14 @@
     
     NSString *url = [self.request apiRequestURL];
     NSMutableDictionary *params = [self.request apiRequestParams].mutableCopy;
-     if([self.request shouldPaging])
-     {
-         [params setObject:@(self.currentPage) forKey:self.pageKey];
-     }
-    [[SSRequest request] POST:url parameters:params success:^(SSRequest *request, id response) {
+    if([self.request shouldPaging])
+    {
+        [params setObject:@(self.currentPage) forKey:self.pageKey];
+    }
+    [[SSRequest request] POSTWithAllReturn:url parameters:params success:^(SSRequest *request, id response) {
         if(RequestStateCode == completionCode)
         {
-          [self successCallBack:response];
+            [self successCallBack:response];
         }else
         {
             [self errorCallBack:response];
@@ -38,7 +52,7 @@
     } failure:^(SSRequest *request, NSString *errorMsg) {
         [self errorCallBack:errorMsg];
     }];
-
+    
 }
 -(void)errorCallBack:(id)error
 {
@@ -52,7 +66,19 @@
         {
             [self.delegate apiReceieveErrorMsg:error[@"msg"]];
         }else{
-        [self.delegate apiReceieveErrorMsg:error];
+            [self.delegate apiReceieveErrorMsg:error];
+        }
+    }
+    if([error isKindOfClass:[NSDictionary class]])
+    {
+        if([self.delegate respondsToSelector:@selector(apiResponse:request:)])
+        {
+            [self.delegate apiResponse:RequestDataErrorState request:self.request];
+        }
+    }else{
+        if([self.delegate respondsToSelector:@selector(apiResponse:request:)])
+        {
+            [self.delegate apiResponse:RequestNetErrorState request:self.request];
         }
     }
 }
@@ -61,5 +87,10 @@
     if ([self.delegate respondsToSelector:@selector(apiResponseSuccessOrError:request:)]) {
         [self.delegate apiResponseSuccessOrError:YES request:self.request];
     }
+    if([self.delegate respondsToSelector:@selector(apiResponse:request:)])
+    {
+        [self.delegate apiResponse:RequestSuccessState request:self.request];
+    }
 }
 @end
+

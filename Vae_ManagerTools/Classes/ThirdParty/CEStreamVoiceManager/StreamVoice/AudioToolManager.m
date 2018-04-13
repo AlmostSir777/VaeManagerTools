@@ -339,9 +339,6 @@ static id instance;
         
     }
 }
--(void)playStreamer:(CENearbyDynamicViewModel*)viewModel isTop:(BOOL)isTop index:(NSInteger)tapIndex audioState:(AudioState)state stateBlock:(AudioStateWithIndexBlock)IndexStateBlock{
-    
-}
 -(void)playStreamer:(NSArray<Track *> *)tracks audioState:(AudioState)state stateBlock:(AudioStateWithIndexBlock)IndexStateBlock
 {
     self.playStyle = quantityPlayStyle;
