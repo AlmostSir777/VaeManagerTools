@@ -1,5 +1,6 @@
 platform :ios, ‘8.0’
 target ‘Vae_ManagerTools’ do
+    pod 'ReactiveObjC'
     pod 'AFNetworking' 
     pod 'SDWebImage'
     pod 'DZNEmptyDataSet'

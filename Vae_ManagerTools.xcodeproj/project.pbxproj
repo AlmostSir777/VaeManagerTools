@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		002EFCA539A547724DCB5C51 /* libPods-Vae_ManagerTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B54F9A191D0A7BB6392E57A /* libPods-Vae_ManagerTools.a */; };
+		0428752F21D1D5360012BBDC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428752E21D1D5360012BBDC /* TestViewController.m */; };
+		0428753421D1D5740012BBDC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428753321D1D5740012BBDC /* Person.m */; };
+		0428753721D1D5890012BBDC /* PersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428753621D1D5890012BBDC /* PersionView.m */; };
 		3F0544572046923F00F2C255 /* ALiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0544102046923E00F2C255 /* ALiProgressHUD.m */; };
 		3F0544582046923F00F2C255 /* emj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0544122046923E00F2C255 /* emj@2x.png */; };
 		3F0544592046923F00F2C255 /* emj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0544132046923E00F2C255 /* emj@3x.png */; };
@@ -129,6 +132,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0428752D21D1D5360012BBDC /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0428752E21D1D5360012BBDC /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		0428753221D1D5740012BBDC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0428753321D1D5740012BBDC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0428753521D1D5890012BBDC /* PersionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersionView.h; sourceTree = "<group>"; };
+		0428753621D1D5890012BBDC /* PersionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersionView.m; sourceTree = "<group>"; };
 		3F05440F2046923E00F2C255 /* ALiProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALiProgressHUD.h; sourceTree = "<group>"; };
 		3F0544102046923E00F2C255 /* ALiProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALiProgressHUD.m; sourceTree = "<group>"; };
 		3F0544122046923E00F2C255 /* emj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emj@2x.png"; sourceTree = "<group>"; };
@@ -363,6 +372,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0428752B21D1D5010012BBDC /* SubVC */ = {
+			isa = PBXGroup;
+			children = (
+				0428753121D1D5510012BBDC /* View */,
+				0428753021D1D5490012BBDC /* Model */,
+				0428752C21D1D50A0012BBDC /* Controller */,
+			);
+			path = SubVC;
+			sourceTree = "<group>";
+		};
+		0428752C21D1D50A0012BBDC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0428752D21D1D5360012BBDC /* TestViewController.h */,
+				0428752E21D1D5360012BBDC /* TestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0428753021D1D5490012BBDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0428753221D1D5740012BBDC /* Person.h */,
+				0428753321D1D5740012BBDC /* Person.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0428753121D1D5510012BBDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0428753521D1D5890012BBDC /* PersionView.h */,
+				0428753621D1D5890012BBDC /* PersionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0CAF95E3BF25C5F2E352E457 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -806,6 +852,7 @@
 		3F4A23DD1FF4EC020055797A /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				0428752B21D1D5010012BBDC /* SubVC */,
 				3F4A23E31FF4EC300055797A /* Controller */,
 				3F4A23E21FF4EC240055797A /* View */,
 				3F4A23E11FF4EC1E0055797A /* Model */,
@@ -929,7 +976,6 @@
 				3F4A230F1FF4D1F00055797A /* Sources */,
 				3F4A23101FF4D1F00055797A /* Frameworks */,
 				3F4A23111FF4D1F00055797A /* Resources */,
-				551BCA4B7F25E2556631B4B7 /* [CP] Embed Pods Frameworks */,
 				BE766458B9A61A456B12BD8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1061,21 +1107,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		551BCA4B7F25E2556631B4B7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		BE766458B9A61A456B12BD8E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1088,7 +1119,8 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1130,6 +1162,7 @@
 				3F4A23E61FF4ED540055797A /* MessageViewController.m in Sources */,
 				3F0544662046923F00F2C255 /* XHSoundRecorder.m in Sources */,
 				3F4A23561FF4DDAE0055797A /* VaeNavigationController.m in Sources */,
+				0428753721D1D5890012BBDC /* PersionView.m in Sources */,
 				3F0544772046923F00F2C255 /* DOUSimpleHTTPRequest.m in Sources */,
 				3F4A23B81FF4E36F0055797A /* NSObject+BaseObject.m in Sources */,
 				3F05446D2046923F00F2C255 /* DOUAudioFrequencyAnalyzer.m in Sources */,
@@ -1138,6 +1171,7 @@
 				3F05446B2046923F00F2C255 /* DOUAudioFilePreprocessor.m in Sources */,
 				3F4A23CD1FF4E61B0055797A /* Helper.m in Sources */,
 				3F0544602046923F00F2C255 /* NSObject+ALiHUD.m in Sources */,
+				0428753421D1D5740012BBDC /* Person.m in Sources */,
 				3F4A23D01FF4E63B0055797A /* MapTool.m in Sources */,
 				3F9FDFF4207B4D8D00D2121C /* MessageCell.m in Sources */,
 				3F9FE006207B59AB00D2121C /* UIView+Extension.m in Sources */,
@@ -1149,6 +1183,7 @@
 				3F4A231B1FF4D1F00055797A /* ViewController.m in Sources */,
 				3F4A23261FF4D1F00055797A /* main.m in Sources */,
 				3F05447A2046923F00F2C255 /* Track.m in Sources */,
+				0428752F21D1D5360012BBDC /* TestViewController.m in Sources */,
 				3F4A23F81FF4EEFF0055797A /* SSLayerAnimation.m in Sources */,
 				3F0544722046923F00F2C255 /* DOUAudioStreamer+Options.m in Sources */,
 				3F4A23CA1FF4E5E30055797A /* UIViewController+BarButton.m in Sources */,

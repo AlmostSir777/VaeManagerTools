@@ -41,17 +41,17 @@
     {
         [params setObject:@(self.currentPage) forKey:self.pageKey];
     }
-    [[SSRequest request] POSTWithAllReturn:url parameters:params success:^(SSRequest *request, id response) {
-        if(RequestStateCode == completionCode)
-        {
-            [self successCallBack:response];
-        }else
-        {
-            [self errorCallBack:response];
-        }
-    } failure:^(SSRequest *request, NSString *errorMsg) {
-        [self errorCallBack:errorMsg];
-    }];
+//    [[SSRequest request] POSTWithAllReturn:url parameters:params success:^(SSRequest *request, id response) {
+//        if(RequestStateCode == completionCode)
+//        {
+//            [self successCallBack:response];
+//        }else
+//        {
+//            [self errorCallBack:response];
+//        }
+//    } failure:^(SSRequest *request, NSString *errorMsg) {
+//        [self errorCallBack:errorMsg];
+//    }];
     
 }
 -(void)errorCallBack:(id)error

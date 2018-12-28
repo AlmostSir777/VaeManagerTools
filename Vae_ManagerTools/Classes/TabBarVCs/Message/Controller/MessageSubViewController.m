@@ -10,6 +10,7 @@
 #import "MessageModel.h"
 #import "MessageCell.h"
 #import <Masonry.h>
+#import "TestViewController.h"
 @interface MessageSubViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,weak) UITableView * tableView;
 @property (nonatomic,strong) NSMutableArray <MessageModel*>* dataArray;
@@ -80,7 +81,9 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
+    UINavigationController * nav = g_App.tabBarVC.selectedViewController;
+    TestViewController * vc = [[TestViewController alloc]init];
+    [nav pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
