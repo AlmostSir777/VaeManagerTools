@@ -13,4 +13,5 @@
 -(Person*(^)(NSInteger))sleep;
 -(Person*(^)(NSString*play,void(^)(NSString*gameName)))play;
 -(void)toPlay;
++(Person*)toDoSomeThing:(void(^)(Person * p))block;
 @end

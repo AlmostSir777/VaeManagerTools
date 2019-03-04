@@ -12,6 +12,15 @@
 @property (nonatomic,copy) void(^playBlock)(NSString*name);
 @end
 @implementation Person
++(Person*)toDoSomeThing:(void (^)(Person *))block
+{
+    if(block){
+        Person * p = [[Person alloc]init];
+        block(p);
+        return p;
+    }
+    return nil;
+}
 -(Person*(^)(NSString*))eat{
     return ^(NSString * foodName){
         //do some thing

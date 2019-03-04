@@ -17,11 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"链式编程";
-    Person * p = [[Person alloc] init];
-    p.eat(@"腰子").sleep(5).play(@"武功",^(NSString * gameName){
-    SSLog(@"%@",gameName);
-    });
-    self.p = p;
+//    Person * p = [[Person alloc] init];
+//    p.eat(@"腰子").sleep(5).play(@"武功",^(NSString * gameName){
+//    SSLog(@"%@",gameName);
+//    });
+//    self.p = p;
+    
+    self.p = [Person toDoSomeThing:^(Person *p) {
+            p.eat(@"腰子").sleep(5).play(@"武功",^(NSString * gameName){
+                    SSLog(@"%@",gameName);
+            });
+            }];
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
