@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>083D9B4E-96EE-41A5-9A87-F10C8D473B89</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>083D9B4E-96EE-41A5-9A87-F10C8D473B89.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659942.97463095</real>
+			<key>timeStoppedRecording</key>
+			<real>573659980.83610594</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>083D9B4E-96EE-41A5-9A87-F10C8D473B89</string>
+		</dict>
+		<key>257FC6DB-8A95-4FBA-BD94-1961BFE89260</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>257FC6DB-8A95-4FBA-BD94-1961BFE89260.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573660116.985502</real>
+			<key>timeStoppedRecording</key>
+			<real>573660153.45688498</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>257FC6DB-8A95-4FBA-BD94-1961BFE89260</string>
+		</dict>
+		<key>3F3510DB-54A2-4EC5-8C49-4285081988A0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3F3510DB-54A2-4EC5-8C49-4285081988A0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659824.01289999</real>
+			<key>timeStoppedRecording</key>
+			<real>573659858.39154696</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>3F3510DB-54A2-4EC5-8C49-4285081988A0</string>
+		</dict>
+		<key>6AE09FBB-B6D4-402D-A60E-29E9D7EEEE05</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6AE09FBB-B6D4-402D-A60E-29E9D7EEEE05.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659981.83544195</real>
+			<key>timeStoppedRecording</key>
+			<real>573660115.74163604</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>6AE09FBB-B6D4-402D-A60E-29E9D7EEEE05</string>
+		</dict>
+		<key>6CF212EE-ADDF-4F37-BB57-9557AB1AA7CD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6CF212EE-ADDF-4F37-BB57-9557AB1AA7CD.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659750.36374998</real>
+			<key>timeStoppedRecording</key>
+			<real>573659822.83275604</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>6CF212EE-ADDF-4F37-BB57-9557AB1AA7CD</string>
+		</dict>
+		<key>6F6A7454-B02A-4A73-A4EF-1792320F5A1B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6F6A7454-B02A-4A73-A4EF-1792320F5A1B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659510.81788599</real>
+			<key>timeStoppedRecording</key>
+			<real>573659564.15753198</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>6F6A7454-B02A-4A73-A4EF-1792320F5A1B</string>
+		</dict>
+		<key>9655F523-F4CC-43FF-AE30-E56654C3E1A4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9655F523-F4CC-43FF-AE30-E56654C3E1A4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659565.03002298</real>
+			<key>timeStoppedRecording</key>
+			<real>573659749.34097099</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>9655F523-F4CC-43FF-AE30-E56654C3E1A4</string>
+		</dict>
+		<key>9FBF1AF4-463C-4164-AA3F-2EB462EF79BC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9FBF1AF4-463C-4164-AA3F-2EB462EF79BC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659859.24088097</real>
+			<key>timeStoppedRecording</key>
+			<real>573659941.85988903</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>9FBF1AF4-463C-4164-AA3F-2EB462EF79BC</string>
+		</dict>
+		<key>FF334C95-FBFC-4D94-AC07-8695BFE8EAA0</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FF334C95-FBFC-4D94-AC07-8695BFE8EAA0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659273.73015702</real>
+			<key>timeStoppedRecording</key>
+			<real>573659509.60901105</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>FF334C95-FBFC-4D94-AC07-8695BFE8EAA0</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -37,7 +37,7 @@ static NSString * ID = @"answer";
                 for(int j=0;j<3;j++){
                     AnswerSubModel * model = [AnswerSubModel new];
                     model.isSelect = j==0;
-                    model.answer = [NSString stringWithFormat:@"%d月",j];
+                    model.answer = [NSString stringWithFormat:@"%d月",j+1];
                     [aModel.answerArr addObject:model];
                 }
             }else if (i == 1){
@@ -130,13 +130,13 @@ static NSString * ID = @"answer";
 -(void)nextPage{
     if(self.currentPage == self.dataArray.count-1)return;
     self.currentPage++ ;
-    [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:self.currentPage inSection:0] atScrollPosition:UICollectionViewScrollPositionRight animated:NO];
+    [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:self.currentPage inSection:0] atScrollPosition:UICollectionViewScrollPositionRight animated:YES];
     [self.topView refreshIndex:self.currentPage];
 }
 -(void)lastPage{
     if(self.currentPage == 0)return;
     self.currentPage-- ;
-    [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:self.currentPage inSection:0] atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
+    [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:self.currentPage inSection:0] atScrollPosition:UICollectionViewScrollPositionLeft animated:YES];
     [self.topView refreshIndex:self.currentPage];
 }
 #pragma mark--collectionView
@@ -146,7 +146,7 @@ static NSString * ID = @"answer";
 }
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    return CGSizeMake(ScreenWidth, ScreenHeight-180);
+    return CGSizeMake(ScreenWidth, self.view.frame.size.height-180);
 }
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {

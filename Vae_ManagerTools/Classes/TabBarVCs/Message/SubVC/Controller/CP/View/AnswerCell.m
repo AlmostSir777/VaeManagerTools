@@ -43,6 +43,7 @@ return _model;
     tableView.delegate = self;
     tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     tableView.tableFooterView = [UIView new];
+    tableView.tableHeaderView = [UIView new];
     tableView.showsVerticalScrollIndicator = NO;
     tableView.showsHorizontalScrollIndicator = NO;
     [tableView registerClass:[AnswerSubCell class] forCellReuseIdentifier:ID];
@@ -176,7 +177,7 @@ return _model;
 -(void)refreshIndex:(NSInteger)index
 {
     self.index = index;
-    CGFloat page = index+1.000001f;
+    CGFloat page = index+1.000001f;//怕被整除为0
     [self.lableArr enumerateObjectsUsingBlock:^(UILabel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
       obj.textColor = index == idx?KCOLOR(@"#1087EA"):[UIColor grayColor];
     }];
@@ -207,7 +208,7 @@ return _model;
     [ansBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
     ansBtn.titleLabel.font = [UIFont systemFontOfSize:16];
     ansBtn.layer.cornerRadius = 30.f;
-    ansBtn.layer.maskedCorners = YES;
+    ansBtn.layer.masksToBounds = YES;
     [ansBtn addTarget:self action:@selector(ansBtnClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:ansBtn];
     self.answerBtn = ansBtn;
@@ -222,6 +223,7 @@ return _model;
 -(void)setModel:(AnswerSubModel *)model
 {
     _model = model;
+    self.answerBtn.selected = model.isSelect;
     [self.answerBtn setTitle:model.answer forState:UIControlStateNormal];
     [self.answerBtn setTitle:model.answer forState:UIControlStateSelected];
     self.answerBtn.backgroundColor = self.answerBtn.isSelected?KCOLOR(@"#1087EA"):[UIColor whiteColor];

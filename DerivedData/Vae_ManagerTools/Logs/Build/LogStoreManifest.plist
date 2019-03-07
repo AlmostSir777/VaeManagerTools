@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>0DD12AE7-346E-4DF0-941A-39158141C64A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0DD12AE7-346E-4DF0-941A-39158141C64A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659509.39180601</real>
+			<key>timeStoppedRecording</key>
+			<real>573659511.16685104</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>0DD12AE7-346E-4DF0-941A-39158141C64A</string>
+		</dict>
+		<key>0FF69A0D-E81B-40B9-B450-7C54A133CED7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0FF69A0D-E81B-40B9-B450-7C54A133CED7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659563.93338203</real>
+			<key>timeStoppedRecording</key>
+			<real>573659565.25060594</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>0FF69A0D-E81B-40B9-B450-7C54A133CED7</string>
+		</dict>
+		<key>21B98570-52AD-4F4F-853E-3F2FC64DC734</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>21B98570-52AD-4F4F-853E-3F2FC64DC734.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659941.62503505</real>
+			<key>timeStoppedRecording</key>
+			<real>573659943.20511794</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>21B98570-52AD-4F4F-853E-3F2FC64DC734</string>
+		</dict>
+		<key>2D0EE2CF-CA11-46D5-A013-E9E068CB1D61</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2D0EE2CF-CA11-46D5-A013-E9E068CB1D61.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659858.16078496</real>
+			<key>timeStoppedRecording</key>
+			<real>573659859.45682502</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>2D0EE2CF-CA11-46D5-A013-E9E068CB1D61</string>
+		</dict>
+		<key>3ADEEBF4-0EAD-4657-814C-CCCAD07C22DA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3ADEEBF4-0EAD-4657-814C-CCCAD07C22DA.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659822.611166</real>
+			<key>timeStoppedRecording</key>
+			<real>573659824.22787702</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>3ADEEBF4-0EAD-4657-814C-CCCAD07C22DA</string>
+		</dict>
+		<key>56DA6FAC-8BB7-476D-AFDD-75BC906A7C65</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>56DA6FAC-8BB7-476D-AFDD-75BC906A7C65.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659238.86590397</real>
+			<key>timeStoppedRecording</key>
+			<real>573659273.76577306</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>56DA6FAC-8BB7-476D-AFDD-75BC906A7C65</string>
+		</dict>
+		<key>573B180A-399F-4698-83FF-987B5D54B8DB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>573B180A-399F-4698-83FF-987B5D54B8DB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573660153.22439897</real>
+			<key>timeStoppedRecording</key>
+			<real>573660154.85737705</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>573B180A-399F-4698-83FF-987B5D54B8DB</string>
+		</dict>
+		<key>88DB476F-171F-4881-9170-2571010D40F4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>88DB476F-171F-4881-9170-2571010D40F4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573660115.50590599</real>
+			<key>timeStoppedRecording</key>
+			<real>573660117.22255003</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>88DB476F-171F-4881-9170-2571010D40F4</string>
+		</dict>
+		<key>E5CD25BA-FF0B-4968-B24F-69D7815E4CB9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E5CD25BA-FF0B-4968-B24F-69D7815E4CB9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659980.59992802</real>
+			<key>timeStoppedRecording</key>
+			<real>573659982.15625095</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>E5CD25BA-FF0B-4968-B24F-69D7815E4CB9</string>
+		</dict>
+		<key>F89B0347-B837-4E44-9D2E-586AB40D59C8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F89B0347-B837-4E44-9D2E-586AB40D59C8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573659749.10835302</real>
+			<key>timeStoppedRecording</key>
+			<real>573659750.58418202</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>F89B0347-B837-4E44-9D2E-586AB40D59C8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
