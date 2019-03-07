@@ -8,6 +8,8 @@
 
 #import "TestViewController.h"
 #import "Person.h"
+#import "CPViewController.h"
+#import "AnswerViewController.h"
 @interface TestViewController ()
 @property (nonatomic,strong) Person * p;
 @end
@@ -32,6 +34,8 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     [_p toPlay];
+    AnswerViewController * vc = [[AnswerViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

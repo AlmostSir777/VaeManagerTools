@@ -11,9 +11,15 @@
 		0428752F21D1D5360012BBDC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428752E21D1D5360012BBDC /* TestViewController.m */; };
 		0428753421D1D5740012BBDC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428753321D1D5740012BBDC /* Person.m */; };
 		0428753721D1D5890012BBDC /* PersionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428753621D1D5890012BBDC /* PersionView.m */; };
-		04361263222D069500918458 /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361262222D069500918458 /* CPViewController.m */; };
-		04361266222D081700918458 /* CPQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361265222D081700918458 /* CPQuestionCell.m */; };
-		04361269222D082A00918458 /* CPQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04361268222D082A00918458 /* CPQuestionModel.m */; };
+		04661E94222E534F00E86C9F /* EditCPModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04661E88222E534F00E86C9F /* EditCPModel.m */; };
+		04661E95222E534F00E86C9F /* CPQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04661E89222E534F00E86C9F /* CPQuestionModel.m */; };
+		04661E96222E534F00E86C9F /* EditCPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04661E8C222E534F00E86C9F /* EditCPCell.m */; };
+		04661E97222E534F00E86C9F /* CPQuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04661E8D222E534F00E86C9F /* CPQuestionCell.m */; };
+		04661E98222E534F00E86C9F /* EditCPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04661E90222E534F00E86C9F /* EditCPViewController.m */; };
+		04661E99222E534F00E86C9F /* CPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04661E93222E534F00E86C9F /* CPViewController.m */; };
+		04AAAE652230A93200A05E99 /* AnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE642230A93200A05E99 /* AnswerViewController.m */; };
+		04AAAE682230A97800A05E99 /* AnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE672230A97800A05E99 /* AnswerCell.m */; };
+		04AAAE6B2230A98A00A05E99 /* AnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AAAE6A2230A98A00A05E99 /* AnswerModel.m */; };
 		3F0544572046923F00F2C255 /* ALiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0544102046923E00F2C255 /* ALiProgressHUD.m */; };
 		3F0544582046923F00F2C255 /* emj@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0544122046923E00F2C255 /* emj@2x.png */; };
 		3F0544592046923F00F2C255 /* emj@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F0544132046923E00F2C255 /* emj@3x.png */; };
@@ -141,12 +147,24 @@
 		0428753321D1D5740012BBDC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0428753521D1D5890012BBDC /* PersionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersionView.h; sourceTree = "<group>"; };
 		0428753621D1D5890012BBDC /* PersionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersionView.m; sourceTree = "<group>"; };
-		04361261222D069500918458 /* CPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
-		04361262222D069500918458 /* CPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
-		04361264222D081700918458 /* CPQuestionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPQuestionCell.h; sourceTree = "<group>"; };
-		04361265222D081700918458 /* CPQuestionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPQuestionCell.m; sourceTree = "<group>"; };
-		04361267222D082A00918458 /* CPQuestionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPQuestionModel.h; sourceTree = "<group>"; };
-		04361268222D082A00918458 /* CPQuestionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPQuestionModel.m; sourceTree = "<group>"; };
+		04661E86222E534F00E86C9F /* EditCPModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCPModel.h; sourceTree = "<group>"; };
+		04661E87222E534F00E86C9F /* CPQuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPQuestionModel.h; sourceTree = "<group>"; };
+		04661E88222E534F00E86C9F /* EditCPModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCPModel.m; sourceTree = "<group>"; };
+		04661E89222E534F00E86C9F /* CPQuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPQuestionModel.m; sourceTree = "<group>"; };
+		04661E8B222E534F00E86C9F /* CPQuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPQuestionCell.h; sourceTree = "<group>"; };
+		04661E8C222E534F00E86C9F /* EditCPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCPCell.m; sourceTree = "<group>"; };
+		04661E8D222E534F00E86C9F /* CPQuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPQuestionCell.m; sourceTree = "<group>"; };
+		04661E8E222E534F00E86C9F /* EditCPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCPCell.h; sourceTree = "<group>"; };
+		04661E90222E534F00E86C9F /* EditCPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCPViewController.m; sourceTree = "<group>"; };
+		04661E91222E534F00E86C9F /* CPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPViewController.h; sourceTree = "<group>"; };
+		04661E92222E534F00E86C9F /* EditCPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCPViewController.h; sourceTree = "<group>"; };
+		04661E93222E534F00E86C9F /* CPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPViewController.m; sourceTree = "<group>"; };
+		04AAAE632230A93200A05E99 /* AnswerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerViewController.h; sourceTree = "<group>"; };
+		04AAAE642230A93200A05E99 /* AnswerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerViewController.m; sourceTree = "<group>"; };
+		04AAAE662230A97800A05E99 /* AnswerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerCell.h; sourceTree = "<group>"; };
+		04AAAE672230A97800A05E99 /* AnswerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerCell.m; sourceTree = "<group>"; };
+		04AAAE692230A98A00A05E99 /* AnswerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerModel.h; sourceTree = "<group>"; };
+		04AAAE6A2230A98A00A05E99 /* AnswerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerModel.m; sourceTree = "<group>"; };
 		3F05440F2046923E00F2C255 /* ALiProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALiProgressHUD.h; sourceTree = "<group>"; };
 		3F0544102046923E00F2C255 /* ALiProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALiProgressHUD.m; sourceTree = "<group>"; };
 		3F0544122046923E00F2C255 /* emj@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emj@2x.png"; sourceTree = "<group>"; };
@@ -394,14 +412,9 @@
 		0428752C21D1D50A0012BBDC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				04661E84222E534F00E86C9F /* CP */,
 				0428752D21D1D5360012BBDC /* TestViewController.h */,
 				0428752E21D1D5360012BBDC /* TestViewController.m */,
-				04361261222D069500918458 /* CPViewController.h */,
-				04361262222D069500918458 /* CPViewController.m */,
-				04361264222D081700918458 /* CPQuestionCell.h */,
-				04361265222D081700918458 /* CPQuestionCell.m */,
-				04361267222D082A00918458 /* CPQuestionModel.h */,
-				04361268222D082A00918458 /* CPQuestionModel.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -422,6 +435,55 @@
 				0428753621D1D5890012BBDC /* PersionView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		04661E84222E534F00E86C9F /* CP */ = {
+			isa = PBXGroup;
+			children = (
+				04661E85222E534F00E86C9F /* Model */,
+				04661E8A222E534F00E86C9F /* View */,
+				04661E8F222E534F00E86C9F /* Controller */,
+			);
+			path = CP;
+			sourceTree = "<group>";
+		};
+		04661E85222E534F00E86C9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04661E86222E534F00E86C9F /* EditCPModel.h */,
+				04661E87222E534F00E86C9F /* CPQuestionModel.h */,
+				04661E88222E534F00E86C9F /* EditCPModel.m */,
+				04661E89222E534F00E86C9F /* CPQuestionModel.m */,
+				04AAAE692230A98A00A05E99 /* AnswerModel.h */,
+				04AAAE6A2230A98A00A05E99 /* AnswerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04661E8A222E534F00E86C9F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04661E8B222E534F00E86C9F /* CPQuestionCell.h */,
+				04661E8C222E534F00E86C9F /* EditCPCell.m */,
+				04661E8D222E534F00E86C9F /* CPQuestionCell.m */,
+				04661E8E222E534F00E86C9F /* EditCPCell.h */,
+				04AAAE662230A97800A05E99 /* AnswerCell.h */,
+				04AAAE672230A97800A05E99 /* AnswerCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04661E8F222E534F00E86C9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04661E90222E534F00E86C9F /* EditCPViewController.m */,
+				04661E91222E534F00E86C9F /* CPViewController.h */,
+				04661E92222E534F00E86C9F /* EditCPViewController.h */,
+				04661E93222E534F00E86C9F /* CPViewController.m */,
+				04AAAE632230A93200A05E99 /* AnswerViewController.h */,
+				04AAAE642230A93200A05E99 /* AnswerViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		0CAF95E3BF25C5F2E352E457 /* Pods */ = {
@@ -1169,12 +1231,13 @@
 			files = (
 				3F4A23B21FF4E15C0055797A /* HudCenter.m in Sources */,
 				3F4A23A31FF4E0450055797A /* PSNormalRefreshFooter.m in Sources */,
+				04661E94222E534F00E86C9F /* EditCPModel.m in Sources */,
 				3F4A23891FF4E02C0055797A /* MBProgressHUD+MJ.m in Sources */,
 				3F4A23D31FF4E7390055797A /* Utils.m in Sources */,
 				3F4A23C31FF4E5BE0055797A /* UIColor+Tools.m in Sources */,
 				3F4A236D1FF4E0140055797A /* KSGuaidViewController.m in Sources */,
 				3F0544782046923F00F2C255 /* NSData+DOUMappedFile.m in Sources */,
-				04361263222D069500918458 /* CPViewController.m in Sources */,
+				04661E99222E534F00E86C9F /* CPViewController.m in Sources */,
 				3F4A23E61FF4ED540055797A /* MessageViewController.m in Sources */,
 				3F0544662046923F00F2C255 /* XHSoundRecorder.m in Sources */,
 				3F4A23561FF4DDAE0055797A /* VaeNavigationController.m in Sources */,
@@ -1186,6 +1249,7 @@
 				3F4A23BC1FF4E4BE0055797A /* MMMaterialDesignSpinner.m in Sources */,
 				3F05446B2046923F00F2C255 /* DOUAudioFilePreprocessor.m in Sources */,
 				3F4A23CD1FF4E61B0055797A /* Helper.m in Sources */,
+				04AAAE652230A93200A05E99 /* AnswerViewController.m in Sources */,
 				3F0544602046923F00F2C255 /* NSObject+ALiHUD.m in Sources */,
 				0428753421D1D5740012BBDC /* Person.m in Sources */,
 				3F4A23D01FF4E63B0055797A /* MapTool.m in Sources */,
@@ -1197,6 +1261,7 @@
 				3F0544742046923F00F2C255 /* DOUAudioVisualizer.m in Sources */,
 				3F4A23D61FF4E7B30055797A /* Tool.m in Sources */,
 				3F4A231B1FF4D1F00055797A /* ViewController.m in Sources */,
+				04661E96222E534F00E86C9F /* EditCPCell.m in Sources */,
 				3F4A23261FF4D1F00055797A /* main.m in Sources */,
 				3F05447A2046923F00F2C255 /* Track.m in Sources */,
 				0428752F21D1D5360012BBDC /* TestViewController.m in Sources */,
@@ -1216,17 +1281,19 @@
 				3F4A237C1FF4E0250055797A /* LCActionSheetCell.m in Sources */,
 				3F4A23F51FF4EED90055797A /* UIFont+Extension.m in Sources */,
 				3F4A23D91FF4EA3E0055797A /* VaeAppDelegate+Guaid.m in Sources */,
+				04AAAE682230A97800A05E99 /* AnswerCell.m in Sources */,
 				3F05446A2046923F00F2C255 /* DOUAudioEventLoop.m in Sources */,
-				04361266222D081700918458 /* CPQuestionCell.m in Sources */,
 				3F4A234B1FF4DB6B0055797A /* VaeAppDelegate.m in Sources */,
 				3F4A23EF1FF4ED780055797A /* MineViewController.m in Sources */,
 				3F9FE000207B571500D2121C /* HomeSelectView.m in Sources */,
 				3F05446C2046923F00F2C255 /* DOUAudioFileProvider.m in Sources */,
 				3F9FDFF7207B4DA000D2121C /* MessageModel.m in Sources */,
+				04661E97222E534F00E86C9F /* CPQuestionCell.m in Sources */,
 				3F05446F2046923F00F2C255 /* DOUAudioPlaybackItem.m in Sources */,
 				3F0544732046923F00F2C255 /* DOUAudioStreamer.m in Sources */,
 				3F054486204693C600F2C255 /* AppInterface.m in Sources */,
 				3F4A23801FF4E0250055797A /* UIImage+LCActionSheet.m in Sources */,
+				04661E98222E534F00E86C9F /* EditCPViewController.m in Sources */,
 				3F4A237B1FF4E0250055797A /* LCActionSheet.m in Sources */,
 				3F4A23AE1FF4E0710055797A /* YHWebViewProgress.m in Sources */,
 				3F4A23AF1FF4E0710055797A /* YHWebViewProgressView.m in Sources */,
@@ -1235,6 +1302,7 @@
 				3F0544762046923F00F2C255 /* DOUMPMediaLibraryAssetLoader.m in Sources */,
 				3F9FE01E207F3E8000D2121C /* SSRequest.m in Sources */,
 				3F4A23A41FF4E0450055797A /* PSGifRefreshHeader.m in Sources */,
+				04AAAE6B2230A98A00A05E99 /* AnswerModel.m in Sources */,
 				3F9FE01B207F3E2A00D2121C /* MYHAPIRequest.m in Sources */,
 				3F4A23C41FF4E5BE0055797A /* UIControl+recurClick.m in Sources */,
 				3F4A237D1FF4E0250055797A /* LCActionSheetConfig.m in Sources */,
@@ -1247,13 +1315,13 @@
 				3F0544572046923F00F2C255 /* ALiProgressHUD.m in Sources */,
 				3F0544792046923F00F2C255 /* AudioToolManager.m in Sources */,
 				3F4A23531FF4DD660055797A /* VaeBaseViewController.m in Sources */,
+				04661E95222E534F00E86C9F /* CPQuestionModel.m in Sources */,
 				3F4A237E1FF4E0250055797A /* LCActionSheetViewController.m in Sources */,
 				3F0544752046923F00F2C255 /* DOUEAGLView.m in Sources */,
 				3F4A23C71FF4E5D10055797A /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				3F4A238C1FF4E02C0055797A /* SNLoading.m in Sources */,
 				3F4A235D1FF4DDF40055797A /* VaeTabBar.m in Sources */,
 				3F4A234E1FF4DBB90055797A /* VaeAppDelegate+ConfigNavBar.m in Sources */,
-				04361269222D082A00918458 /* CPQuestionModel.m in Sources */,
 				3F4A23A61FF4E0450055797A /* UIScrollView+PSRefresh.m in Sources */,
 				3F0544702046923F00F2C255 /* DOUAudioRenderer.m in Sources */,
 				3F4A23A11FF4E0450055797A /* PSBaseRefreshControl.m in Sources */,

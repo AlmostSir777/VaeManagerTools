@@ -20,6 +20,7 @@
 {
     if(self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]){
         self.selectionStyle = UITableViewCellSelectionStyleNone;
+//        self.contentView.backgroundColor = [UIColor colorWithRGBAColorRed:246/255.f green:246/255.f blue:246/255.f alpha:1.f];
         [self configUI];
     }
     return self;
@@ -96,6 +97,7 @@
 -(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
 {
     if(self = [super initWithReuseIdentifier:reuseIdentifier]){
+//        self.contentView.backgroundColor =   [UIColor colorWithRGBAColorRed:247/255.f green:247/255.f blue:247/255.f alpha:1.f];
         [self configUI];
     }
     return self;
@@ -107,7 +109,7 @@
     
     UILabel * namelable = [UILabel new];
     namelable.font = [UIFont systemFontOfSize:14];
-    namelable.textColor = [UIColor lightGrayColor];
+    namelable.textColor = [UIColor blackColor];
     [self.contentView addSubview:namelable];
     self.nameLable = namelable;
     
@@ -115,6 +117,11 @@
         make.left.equalTo(self.contentView).offset(8.f);
         make.centerY.equalTo(self.contentView);
         make.size.mas_equalTo(CGSizeMake(25, 25));
+    }];
+    
+    [self.nameLable mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.leftImgV);
+        make.left.equalTo(self.leftImgV.mas_right).offset(8.f);
     }];
     
     self.leftImgV.backgroundColor = [UIColor redColor];
@@ -132,6 +139,7 @@
 -(instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier
 {
     if(self = [super initWithReuseIdentifier:reuseIdentifier]){
+//        self.contentView.backgroundColor =   [UIColor colorWithRGBAColorRed:246/255.f green:246/255.f blue:246/255.f alpha:1.f];
         [self configUI];
     }
     return self;
@@ -148,9 +156,18 @@
     UIButton * addBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [addBtn setImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
     [addBtn setTitle:@"    成为出题人" forState:UIControlStateNormal];
+    addBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    [addBtn addTarget:self action:@selector(addBtnClick) forControlEvents:UIControlEventTouchUpInside];
+    [addBtn setTitleColor:[UIColor lightGrayColor] forState:UIControlStateNormal];
     [self.backView addSubview:addBtn];
     self.addBtn = addBtn;
     
+    [self.backView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.contentView).offset(UIEdgeInsetsMake(4, 30, 4, 30));
+    }];
+    [self.addBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.equalTo(self.backView);
+    }];
     
 }
 -(void)addBtnClick{

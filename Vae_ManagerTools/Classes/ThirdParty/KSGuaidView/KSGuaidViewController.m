@@ -68,7 +68,10 @@ UICollectionViewDelegateFlowLayout>
     
     self.hiddenBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     self.hiddenBtn.hidden = YES;
-    [self.hiddenBtn setImage:[UIImage imageNamed:hiddenBtnImageName] forState:UIControlStateNormal];
+//    [self.hiddenBtn setImage:[UIImage imageNamed:hiddenBtnImageName] forState:UIControlStateNormal];
+    [self.hiddenBtn setTitle:@"开启" forState:UIControlStateNormal];
+    self.hiddenBtn.titleLabel.font = [UIFont systemFontOfSize:18];
+    [self.hiddenBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.hiddenBtn addTarget:self action:@selector(hide) forControlEvents:UIControlEventTouchUpInside];
     [self.hiddenBtn setFrame:CGRectMake(0, 0, self.sizeW(200.f), self.sizeW(60.f))];
     [self.hiddenBtn sizeToFit];
