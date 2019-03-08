@@ -8,4 +8,5 @@ target ‘Vae_ManagerTools’ do
     pod 'MJRefresh'
     pod 'MJExtension'
     pod 'SVProgressHUD'
+    pod 'YYText'
 end

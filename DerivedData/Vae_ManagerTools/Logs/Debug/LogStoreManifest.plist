@@ -93,6 +93,35 @@
 			<key>uniqueIdentifier</key>
 			<string>3F3510DB-54A2-4EC5-8C49-4285081988A0</string>
 		</dict>
+		<key>4066B5F0-D1C5-40B4-871A-58F5B739AE75</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4066B5F0-D1C5-40B4-871A-58F5B739AE75.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573704702.11152697</real>
+			<key>timeStoppedRecording</key>
+			<real>573705095.08686197</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>4066B5F0-D1C5-40B4-871A-58F5B739AE75</string>
+		</dict>
 		<key>6AE09FBB-B6D4-402D-A60E-29E9D7EEEE05</key>
 		<dict>
 			<key>className</key>

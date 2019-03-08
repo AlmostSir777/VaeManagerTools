@@ -4,33 +4,40 @@
 <array>
 	<string>Cocoa</string>
 	<string>AVFoundation</string>
-	<string>Masonry</string>
-	<string>CommonCrypto</string>
 	<string>pthread</string>
+	<string>CommonCrypto</string>
+	<string>Masonry</string>
+	<string>YYImage</string>
 	<string>ImageIO</string>
 	<string>objc</string>
 	<string>CoreData</string>
+	<string>Accelerate</string>
 	<string>arpa</string>
 	<string>MobileCoreServices</string>
 	<string>sys</string>
 	<string>OpenGLES</string>
+	<string>CoreFoundation</string>
 	<string>CoreServices</string>
 	<string>netinet6</string>
 	<string>SDWebImage</string>
 	<string>libkern</string>
-	<string>Cent</string>
+	<string>CoreText</string>
 	<string>WebKit</string>
+	<string>YYText</string>
+	<string>Cent</string>
 	<string>ReactiveObjC</string>
 	<string>MapKit</string>
 	<string>XCTest</string>
-	<string>AFNetworking</string>
+	<string>YYWebImage</string>
 	<string>WatchKit</string>
 	<string>Foundation</string>
 	<string>QuartzCore</string>
 	<string>Security</string>
-	<string>AppKit</string>
+	<string>AFNetworking</string>
 	<string>Photos</string>
+	<string>AppKit</string>
 	<string>netinet</string>
+	<string>YYtext</string>
 	<string>AssetsLibrary</string>
 	<string>SystemConfiguration</string>
 	<string>CoreGraphics</string>

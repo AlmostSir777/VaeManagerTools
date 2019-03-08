@@ -238,6 +238,35 @@
 			<key>uniqueIdentifier</key>
 			<string>88DB476F-171F-4881-9170-2571010D40F4</string>
 		</dict>
+		<key>A667F12A-C27E-4FCB-9F5A-E6E2ED2BC101</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A667F12A-C27E-4FCB-9F5A-E6E2ED2BC101.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573704701.37697899</real>
+			<key>timeStoppedRecording</key>
+			<real>573704702.29480898</real>
+			<key>title</key>
+			<string>Build Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>A667F12A-C27E-4FCB-9F5A-E6E2ED2BC101</string>
+		</dict>
 		<key>E5CD25BA-FF0B-4968-B24F-69D7815E4CB9</key>
 		<dict>
 			<key>className</key>

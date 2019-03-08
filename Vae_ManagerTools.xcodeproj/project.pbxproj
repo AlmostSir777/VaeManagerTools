@@ -121,6 +121,10 @@
 		3F9FE006207B59AB00D2121C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE005207B59AB00D2121C /* UIView+Extension.m */; };
 		3F9FE01B207F3E2A00D2121C /* MYHAPIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE017207F3E1300D2121C /* MYHAPIRequest.m */; };
 		3F9FE01E207F3E8000D2121C /* SSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE01D207F3E7F00D2121C /* SSRequest.m */; };
+		C7641CCC22320B17006C2703 /* SecretaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7641CCB22320B17006C2703 /* SecretaryViewController.m */; };
+		C7641CCF22320B52006C2703 /* SecretaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C7641CCE22320B52006C2703 /* SecretaryCell.m */; };
+		C7641CD222320B83006C2703 /* SecretaryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C7641CD122320B83006C2703 /* SecretaryModel.m */; };
+		C7641CD422324402006C2703 /* tableback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7641CD322324402006C2703 /* tableback@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -369,6 +373,13 @@
 		3F9FE01D207F3E7F00D2121C /* SSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRequest.m; sourceTree = "<group>"; };
 		531C41766491EA403EB97E7C /* Pods-Vae_ManagerTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vae_ManagerTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools.release.xcconfig"; sourceTree = "<group>"; };
 		7B54F9A191D0A7BB6392E57A /* libPods-Vae_ManagerTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vae_ManagerTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7641CCA22320B17006C2703 /* SecretaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretaryViewController.h; sourceTree = "<group>"; };
+		C7641CCB22320B17006C2703 /* SecretaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretaryViewController.m; sourceTree = "<group>"; };
+		C7641CCD22320B52006C2703 /* SecretaryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretaryCell.h; sourceTree = "<group>"; };
+		C7641CCE22320B52006C2703 /* SecretaryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretaryCell.m; sourceTree = "<group>"; };
+		C7641CD022320B83006C2703 /* SecretaryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretaryModel.h; sourceTree = "<group>"; };
+		C7641CD122320B83006C2703 /* SecretaryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretaryModel.m; sourceTree = "<group>"; };
+		C7641CD322324402006C2703 /* tableback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tableback@2x.png"; sourceTree = "<group>"; };
 		ED690B6C5C7DA240A2702BC9 /* Pods-Vae_ManagerTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vae_ManagerTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vae_ManagerTools/Pods-Vae_ManagerTools.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -440,6 +451,7 @@
 		04661E84222E534F00E86C9F /* CP */ = {
 			isa = PBXGroup;
 			children = (
+				C7641CD322324402006C2703 /* tableback@2x.png */,
 				04661E85222E534F00E86C9F /* Model */,
 				04661E8A222E534F00E86C9F /* View */,
 				04661E8F222E534F00E86C9F /* Controller */,
@@ -456,6 +468,8 @@
 				04661E89222E534F00E86C9F /* CPQuestionModel.m */,
 				04AAAE692230A98A00A05E99 /* AnswerModel.h */,
 				04AAAE6A2230A98A00A05E99 /* AnswerModel.m */,
+				C7641CD022320B83006C2703 /* SecretaryModel.h */,
+				C7641CD122320B83006C2703 /* SecretaryModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -469,6 +483,8 @@
 				04661E8E222E534F00E86C9F /* EditCPCell.h */,
 				04AAAE662230A97800A05E99 /* AnswerCell.h */,
 				04AAAE672230A97800A05E99 /* AnswerCell.m */,
+				C7641CCD22320B52006C2703 /* SecretaryCell.h */,
+				C7641CCE22320B52006C2703 /* SecretaryCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -482,6 +498,8 @@
 				04661E93222E534F00E86C9F /* CPViewController.m */,
 				04AAAE632230A93200A05E99 /* AnswerViewController.h */,
 				04AAAE642230A93200A05E99 /* AnswerViewController.m */,
+				C7641CCA22320B17006C2703 /* SecretaryViewController.h */,
+				C7641CCB22320B17006C2703 /* SecretaryViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1150,6 +1168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7641CD422324402006C2703 /* tableback@2x.png in Resources */,
 				3F05445B2046923F00F2C255 /* HUD_error@3x.png in Resources */,
 				3F0544582046923F00F2C255 /* emj@2x.png in Resources */,
 				3F4A236B1FF4E0140055797A /* KSGuaidProperty.plist in Resources */,
@@ -1247,6 +1266,7 @@
 				3F05446D2046923F00F2C255 /* DOUAudioFrequencyAnalyzer.m in Sources */,
 				3F4A23A71FF4E0450055797A /* UIView+PSFrame.m in Sources */,
 				3F4A23BC1FF4E4BE0055797A /* MMMaterialDesignSpinner.m in Sources */,
+				C7641CD222320B83006C2703 /* SecretaryModel.m in Sources */,
 				3F05446B2046923F00F2C255 /* DOUAudioFilePreprocessor.m in Sources */,
 				3F4A23CD1FF4E61B0055797A /* Helper.m in Sources */,
 				04AAAE652230A93200A05E99 /* AnswerViewController.m in Sources */,
@@ -1257,8 +1277,10 @@
 				3F9FE006207B59AB00D2121C /* UIView+Extension.m in Sources */,
 				3F4A237F1FF4E0250055797A /* UIDevice+LCActionSheet.m in Sources */,
 				3F9FDFFA207B4F3B00D2121C /* HorizenButton.m in Sources */,
+				C7641CCF22320B52006C2703 /* SecretaryCell.m in Sources */,
 				3F4A23E91FF4ED5E0055797A /* HomeViewController.m in Sources */,
 				3F0544742046923F00F2C255 /* DOUAudioVisualizer.m in Sources */,
+				C7641CCC22320B17006C2703 /* SecretaryViewController.m in Sources */,
 				3F4A23D61FF4E7B30055797A /* Tool.m in Sources */,
 				3F4A231B1FF4D1F00055797A /* ViewController.m in Sources */,
 				04661E96222E534F00E86C9F /* EditCPCell.m in Sources */,
