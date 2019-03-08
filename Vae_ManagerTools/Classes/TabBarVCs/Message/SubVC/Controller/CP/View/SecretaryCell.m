@@ -11,6 +11,7 @@
 @interface SecretaryCell()
 @property (nonatomic,weak) UIView * backView;
 @property (nonatomic,weak) YYLabel * contentLable;
+@property (nonatomic,weak) UIImageView * userImg;
 @end
 @implementation SecretaryCell
 -(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
