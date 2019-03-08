@@ -180,6 +180,35 @@
 			<key>uniqueIdentifier</key>
 			<string>6F6A7454-B02A-4A73-A4EF-1792320F5A1B</string>
 		</dict>
+		<key>8073F734-926A-4894-A405-6D809EE10F0D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8073F734-926A-4894-A405-6D809EE10F0D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>Vae_ManagerTools project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Vae_ManagerTools</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>timeStartedRecording</key>
+			<real>573660154.50185394</real>
+			<key>timeStoppedRecording</key>
+			<real>573660560.79136097</real>
+			<key>title</key>
+			<string>Debug Vae_ManagerTools</string>
+			<key>uniqueIdentifier</key>
+			<string>8073F734-926A-4894-A405-6D809EE10F0D</string>
+		</dict>
 		<key>9655F523-F4CC-43FF-AE30-E56654C3E1A4</key>
 		<dict>
 			<key>className</key>
